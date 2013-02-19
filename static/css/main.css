@@ -1,0 +1,19 @@
+#uploadForm #id_description{
+    width: 500px;
+    height: 150px;
+    resize: none;
+}
+
+#uploadForm #id_name{
+    width: 500px;
+}
+
+#uploadForm ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+#uploadForm ul li label{
+    display: inline;
+}

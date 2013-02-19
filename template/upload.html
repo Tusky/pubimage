@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+
+{% block content %}
+    <div class="row-fluid">
+        <div class="well span12">
+            <h1>Upload an image</h1>
+            <br />
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <div id="uploadForm">
+                    {{ form|bootstrap }}
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <input class="btn btn-primary" type="submit" value="Upload" />
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+{% endblock %}
