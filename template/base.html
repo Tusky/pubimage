@@ -19,13 +19,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Django Image</a>
+                    <a class="brand" href="{% if user.is_authenticated %}{% url manage %}{% else %}/{% endif %}">Django Image</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li><a href="/">Home</a></li>
+                            <li><a href="{% if user.is_authenticated %}{% url manage %}{% else %}/{% endif %}">Home</a></li>
                             <li><a href="{% url top10 %}">Top 10</a></li>
                         </ul>
-                        {% if user.is_authenticated %}<p class="navbar-text pull-right">Logged in as <a href="#profile-link" class="navbar-link">{{ user.username }}</a></p>
+                        {% if user.is_authenticated %}<p class="navbar-text pull-right">Logged in as <a href="{% url manage %}" class="navbar-link">{{ user.username }}</a></p>
                         {% else %}
                             <ul class="nav pull-right">
                                 <li><a href="#registration-link">Register</a></li>

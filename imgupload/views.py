@@ -37,15 +37,15 @@ def like_image(request, image_id):
     imageStuff = images.objects.get(pk=image_id)
     imageStuff.likes += 1
     imageStuff.save()
-    return render(request, 'single_image.html', { "image": imageStuff})
+    return redirect("show_image", image_id)
 
 def dislike_image(request, image_id):
     imageStuff = images.objects.get(pk=image_id)
     imageStuff.dislikes += 1
     imageStuff.save()
-    return render(request, 'single_image.html', { "image": imageStuff})
+    return redirect("show_image", image_id)
 
 def top10_list(request):
     images_list = images.objects.filter(public = True).order_by("-likes")[:10]
-    return render(request, 'manage.html', { "images": images_list})
+    return render(request, 'top10.html', { "images": images_list})
 

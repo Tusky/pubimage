@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/manage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/single_image.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/top10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db" afterPath="$PROJECT_DIR$/db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/base.html" afterPath="$PROJECT_DIR$/template/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgupload/forms.py" afterPath="$PROJECT_DIR$/imgupload/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgupload/models.py" afterPath="$PROJECT_DIR$/imgupload/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubimage/settings.py" afterPath="$PROJECT_DIR$/pubimage/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubimage/urls.py" afterPath="$PROJECT_DIR$/pubimage/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/single_image.html" afterPath="$PROJECT_DIR$/template/single_image.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgupload/views.py" afterPath="$PROJECT_DIR$/imgupload/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -21,17 +15,18 @@
     <file path="/models.py" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362826466515" ignored="false" />
     <file path="/Dummy.txt" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362818866696" ignored="false" />
     <file path="/login.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1361212756868" ignored="false" />
-    <file path="/views.py" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362830468179" ignored="false" />
-    <file path="/base.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362829811187" ignored="false" />
+    <file path="/views.py" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362832420646" ignored="false" />
+    <file path="/base.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362834764685" ignored="false" />
     <file path="/forms.py" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362826869557" ignored="false" />
     <file path="/urls.py" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362829788924" ignored="false" />
     <file path="/upload.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1361292774772" ignored="false" />
-    <file path="/main.css" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362830711111" ignored="false" />
+    <file path="/main.css" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362833398175" ignored="false" />
     <file path="/register.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1361290631957" ignored="false" />
     <file path="/a.sql" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362819407198" ignored="false" />
     <file path="/manage.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362824841937" ignored="false" />
-    <file path="/single_image.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362829551593" ignored="false" />
+    <file path="/single_image.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362832571339" ignored="false" />
     <file path="/a.dummy" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362829052023" ignored="false" />
+    <file path="/top10.html" changelist="2550ffdf-fa2b-4b1f-ad13-1d2319240bff" time="1362831377945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +48,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubimage/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.6549414">
+            <state line="18" column="66" selection-start="849" selection-end="855" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="111" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.68390805">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="18" selection-start="872" selection-end="921" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single_image.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/single_image.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="34" selection-start="354" selection-end="360" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
@@ -65,37 +99,10 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgupload/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="51" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single_image.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/single_image.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="275" selection-start="601" selection-end="601" vertical-scroll-proportion="-6.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="82" selection-start="571" selection-end="571" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="14" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pubimage/views.py" />
         <option value="$PROJECT_DIR$/template/home.html" />
         <option value="$PROJECT_DIR$/template/login.html" />
         <option value="$PROJECT_DIR$/personel/forms.py" />
@@ -127,11 +133,12 @@
         <option value="$PROJECT_DIR$/template/upload.html" />
         <option value="$PROJECT_DIR$/pubimage/settings.py" />
         <option value="$PROJECT_DIR$/imgupload/models.py" />
-        <option value="$PROJECT_DIR$/template/manage.html" />
         <option value="$PROJECT_DIR$/imgupload/forms.py" />
-        <option value="$PROJECT_DIR$/template/single_image.html" />
         <option value="$PROJECT_DIR$/pubimage/urls.py" />
+        <option value="$PROJECT_DIR$/template/manage.html" />
+        <option value="$PROJECT_DIR$/template/top10.html" />
         <option value="$PROJECT_DIR$/imgupload/views.py" />
+        <option value="$PROJECT_DIR$/template/single_image.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/template/base.html" />
       </list>
@@ -140,8 +147,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -218,6 +225,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubimage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubimage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubimage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubimage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,16 +475,36 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="780" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17401215" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17348485" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -522,18 +581,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/personel/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="306" selection-end="306" vertical-scroll-proportion="0.17894737" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgupload/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -592,47 +639,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/single_image.html">
+    <entry file="file://$PROJECT_DIR$/template/top10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="275" selection-start="601" selection-end="601" vertical-scroll-proportion="-6.923077">
+        <state line="18" column="1" selection-start="705" selection-end="705" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="588" selection-end="678" vertical-scroll-proportion="0.41308412">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imgupload/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="51" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
+        <state line="40" column="0" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/manage.html">
+    <entry file="file://$PROJECT_DIR$/pubimage/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="82" selection-start="571" selection-end="571" vertical-scroll-proportion="-7.8461537">
+        <state line="18" column="66" selection-start="849" selection-end="855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/single_image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="354" selection-end="360" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="18" selection-start="872" selection-end="921" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+        <state line="52" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.3655914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubimage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.6549414">
-          <folding />
+        <state line="21" column="111" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.68390805">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
