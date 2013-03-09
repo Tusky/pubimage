@@ -17,3 +17,31 @@
 #uploadForm ul li label{
     display: inline;
 }
+
+.image{
+    display: inline-block;
+    margin-right: 10px;
+    width: 220px;
+}
+
+.image p.name{
+    text-align: center;
+}
+
+.image .options{
+    font-size: 11px;
+}
+
+.image p.muted{
+    height: 100px;
+}
+
+.single_image img{
+    max-width: 800px;
+}
+
+td small.muted br{
+    content: " ";
+    display: block;
+    margin: 10px 0;
+}

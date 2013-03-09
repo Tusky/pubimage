@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load bootstrap thumbnail %}
+
+{% block content %}
+    <div class="row-fluid">
+        <div class="well span12">
+            <h1>List of images</h1>
+            <br />
+            {% for image in images %}
+                <div class="image well">
+                    <a href="{% url show_image image.pk %}"><img src="{% thumbnail image.image 220x220 %}" /></a>
+                    <a href="{% url show_image image.pk %}"><p class="name">{{ image.name }}</p></a>
+                    <p class="muted"><small>{{ image.description|truncatewords:"25" }}</small></p>
+                    <p class="options"><a href="{% url remove image.id %}">Remove</a></p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

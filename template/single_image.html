@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load bootstrap thumbnail %}
+
+{% block content %}
+    <div class="row-fluid">
+        <div class="well span12">
+            <h1>List of images</h1>
+            <br />
+            <div class="single_image">
+                <img src="{{ MEDIA_URL }}{{ image.image }}" />
+                <br /><br />
+                <div class="pagination-centered"><a href="{% url like_image image.pk %}" class="text-success"><span class="icon-thumbs-up"></span> LIKE</a> | <a href="{% url dislike_image image.pk %}" class="text-error"><span class="icon-thumbs-down"></span> DISLIKE</a></div>
+                <br />
+                <table class="table table-striped">
+                    <tr>
+                        <td><strong>Name:</strong></td>
+                        <td>{{ image.name }}</td>
+                        <td><strong>Uploaded by:</strong></td>
+                        <td>{{ image.uploaded_by }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Views:</strong></td>
+                        <td>{{ image.views }}</td>
+                        <td><strong>Likes/Dislikes:</strong></td>
+                        <td>{{ image.likes }}/{{ image.dislikes }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Description:</strong></td>
+                        <td colspan="3"><small class="muted">{{ image.description|linebreaksbr }}</small></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
